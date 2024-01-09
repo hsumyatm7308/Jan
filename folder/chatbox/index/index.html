@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <!-- emoji  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href="assets/lib/css/emoji.css" rel="stylesheet">
+    <link href="../assets/lib/css/emoji.css" rel="stylesheet">
     <!-- tailwind  -->
-    <link rel="stylesheet" href="./tailwind.css">
+    <link rel="stylesheet" href="../../tailwind.css">
     <!-- custom css  -->
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -27,7 +27,7 @@
                 <div>
                     <div class=" w-20 h-16 mb-3 ">
                         <a href="javascript:void(0);" class="md:mt-5 lg:mb-5 dark:text-white dark:-ml-2">
-                            <img src="./assets/img/favlogo/hbgremove.png" alt="">
+                            <img src="../assets/img/favlogo/hbgremove.png" alt="">
                         </a>
                     </div>
 
@@ -258,19 +258,16 @@
                                     <input type="file" name="chat_file" id="chat_file" class="hidden">
                                 </div>
 
-                                <div class="w-full h-full p-3 flex justify-center items-center">
-                                    <!-- <input type="text"
-                                        class="w-full bg-gray-300 focus:outline-none  py-2 px-2 emoji-picker-container"
-                                        data-emojiable="true" placeholder=" Type..."> -->
-                                    <p id="emoji" class="lead emoji-picker-container">
-                                        <textarea class="form-control textarea-control" rows="3"
-                                            placeholder="Textarea with emoji Unicode input" data-emojiable="true"
-                                            data-emoji-input="unicode"></textarea>
-                                    </p>
+                                <div class="w-full h-full p-3 flex justify-center items-center  emoji-picker-container">
+                                    <input type="text"
+                                        class="w-full bg-gray-300 focus:outline-none  py-3 px-2 inputscroll"
+                                        data-emojiable="true" data-emoji-input="unicode" placeholder=" Type...">
+
 
                                 </div>
 
-                                <div>
+                                <div class="p-3">
+
 
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                         stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -600,10 +597,10 @@
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
     <!-- ** Don't forget to Add jQuery here ** -->
-    <script src="assets/lib/js/config.min.js"></script>
-    <script src="assets/lib/js/util.min.js"></script>
-    <script src="assets/lib/js/jquery.emojiarea.min.js"></script>
-    <script src="assets/lib/js/emoji-picker.min.js"></script>
+    <script src="../assets/lib/js/config.min.js"></script>
+    <script src="../assets/lib/js/util.min.js"></script>
+    <script src="../assets/lib/js/jquery.emojiarea.min.js"></script>
+    <script src="../assets/lib/js/emoji-picker.min.js"></script>
 
 
     <script>
